@@ -14,6 +14,9 @@
       "NODE_ENV": "production"
     }
   },
+  "installCommand": "cd frontend && yarn install --ignore-engines",
+  "buildCommand": "cd frontend && yarn add @craco/craco && yarn build",
+  "outputDirectory": "frontend/build",
   "routes": [
     {
       "src": "/(.*)",
