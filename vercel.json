@@ -9,11 +9,6 @@
       }
     }
   ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
   "buildCommand": "yarn add @craco/craco && craco build",
   "routes": [
     {
