@@ -9,7 +9,6 @@
       }
     }
   ],
-  "buildCommand": "yarn add @craco/craco && craco build",
   "routes": [
     {
       "src": "/(.*)",
